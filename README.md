@@ -4,7 +4,8 @@
 
 ## 作品集导航
 
-- [项目源码与演示视频](projects/)
+- [项目源码](code/)
+- [演示视频](videos/)
 - [证书与荣誉](certificates/)
 - [照片](photos/)
 - [其他资料](materials/)
@@ -18,10 +19,10 @@
 
 | 项目 | 主要工作 |
 | --- | --- |
-| [双臂智慧咖啡机器人](projects/dual-arm-coffee/) | 用 LoRA 微调 π0.5，适配取杯与放置动作。基于 LeRobot 整理多视角示教数据，结合 YOLO、深度相机和视觉伺服完成贴标定位与对位。 |
-| [双臂双手可视化交互系统](projects/dual-arm-control/) | 接入 P7 双臂、O6 灵巧手与三路 RGB-D 相机，基于 Three.js 和 URDF 实现三维监控、姿态编辑和示教预览，并校验预览与实机执行的一致性。 |
-| [AGV 双舵轮仓储机器人](projects/dual-steering-agv/) | 推导双舵轮底盘运动学，基于 MPC 在线优化 RPP 前视距离，并在 ROS 2 / Nav2 上完成实车部署。动态绕障实验中，横向误差 RMSE 由 0.058 m 降至 0.031 m。 |
-| [差速无人车](projects/differential-drive/) | 完成 Gazebo 仿真、Cartographer 建图和 Nav2 实车导航，负责串口通信、轮式里程计和串级 PID 控制。 |
+| [双臂智慧咖啡机器人](code/dual-arm-coffee/) | 用 LoRA 微调 π0.5，适配取杯与放置动作。基于 LeRobot 整理多视角示教数据，结合 YOLO、深度相机和视觉伺服完成贴标定位与对位。 |
+| [双臂双手可视化交互系统](code/dual-arm-control/) | 接入 P7 双臂、O6 灵巧手与三路 RGB-D 相机，基于 Three.js 和 URDF 实现三维监控、姿态编辑和示教预览，并校验预览与实机执行的一致性。 |
+| [AGV 双舵轮仓储机器人](code/dual-steering-agv/) | 推导双舵轮底盘运动学，基于 MPC 在线优化 RPP 前视距离，并在 ROS 2 / Nav2 上完成实车部署。动态绕障实验中，横向误差 RMSE 由 0.058 m 降至 0.031 m。 |
+| [差速无人车](code/differential-drive/) | 完成 Gazebo 仿真、Cartographer 建图和 Nav2 实车导航，负责串口通信、轮式里程计和串级 PID 控制。 |
 
 ## 工作经历
 
